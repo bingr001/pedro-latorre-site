@@ -1,0 +1,14 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+
+const Footer = (props) => (
+    <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
+        <p className="copyright">&copy;Pedro LaTorre  Built by: <a href="http://www.brentjingram.com/">Brent Jay Ingram</a></p>
+    </footer>
+)
+
+Footer.propTypes = {
+    timeout: PropTypes.bool
+}
+
+export default Footer
