@@ -12,7 +12,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Pedro LaTorre</h1>
-                <span className="image main"><img src={pedroprofile} alt="" /></span>
+                <span className="image main"><img src={pedroprofile} alt="pedro" /></span>
                 <p>You're Not Alone </p>
             </div>
         </div>
