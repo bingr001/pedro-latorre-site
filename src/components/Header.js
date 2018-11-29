@@ -66,8 +66,9 @@ const Header = props => (
 )
 
 Header.propTypes = {
-    onOpenArticle: PropTypes.func,
-    timeout: PropTypes.bool
+  onOpenArticle: PropTypes.func,
+  route: PropTypes.object,
+  timeout: PropTypes.bool,
 }
 
 export default Header
