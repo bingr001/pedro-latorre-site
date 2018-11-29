@@ -9,15 +9,12 @@ console.log(pedro)
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span className="icon fa-diamond" />
-    </div>
+
     <div className="content">
       <div className="inner">
         <h1>Pedro LaTorre</h1>
         <span className="image main"> <img src={pedro} alt="" /></span>
 
-        <p>You're Not Alone </p>
       </div>
     </div>
     <nav>
@@ -49,7 +46,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Speaking
+            Book
           </a>
         </li>
         <li>
