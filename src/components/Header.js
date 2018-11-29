@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import pedro from '../images/bg.jpg'
+import pedro from '../images/pic01.jpg'
 
 
 
