@@ -20,7 +20,7 @@ const Subscription = (props) => (
   </p>
   <div data-netlify-recaptcha="true"></div>
   <p>
-    <button type="submit">Send</button>
+    <button type="submit" value="Send Message" >Send</button>
   </p>
 </form>
 )
