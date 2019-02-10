@@ -33,10 +33,10 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('work')
+              window.location = "/brave-work";
             }}
           >
-            Rest LA
+            Brave Work
           </a>
         </li>
         <li>
