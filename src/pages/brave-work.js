@@ -9,7 +9,8 @@ const BraveWork = () => (
 <div>
       <h1>Brave Work</h1>
       <p>Brave Work information</p>
-      <form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="contact2" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name "contact2" value="contact2" />
         <h2>Request More Info</h2>
         <p>
           <label>Your Name: <input type="text" name="name" /></label>   
