@@ -15,6 +15,7 @@ const BraveWork = () => (
     <Link to="/">Go back to the homepage</Link>
     <Footer/>
     <form name="contact 5" method="POST" data-netlify="true">
+    <input type="hidden" name="contactsample" value="contact" />
         <p>
           <label>Your Name: <input type="text" name="name" /></label>   
         </p>
@@ -30,6 +31,10 @@ const BraveWork = () => (
         <p>
           <label>Message: <textarea name="message"></textarea></label>
         </p>
+        <div class="field">
+				    <div 
+					  data-netlify-recaptcha="true"></div>
+				</div>
         <p>
           <button type="submit">Send</button>
         </p>
