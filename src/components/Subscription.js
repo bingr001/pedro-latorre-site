@@ -3,7 +3,6 @@ import React from 'react'
 const Subscription = (props) => (
 <form name="brave work contact" 
       method="post" 
-      data-netlify="true" 
       data-netlify-honeypot="bot-field">
   <h2>Request More Info</h2>
   <p>
