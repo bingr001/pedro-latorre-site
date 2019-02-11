@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Subscription from '../components/Subscription'
+import Testimonial from '../components/Testimonial';
 
 
 const SecondPage = () => (
@@ -12,6 +13,7 @@ const SecondPage = () => (
     <div class="iframe-container">
        <iframe src="https://player.vimeo.com/video/316497942"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
+    <Testimonial/>
     <Subscription/>
   </Layout>
 )
