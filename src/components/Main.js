@@ -40,6 +40,7 @@ class Main extends React.Component {
             We have the ability to be the friend that someone has been desperate to know. The middle seat is not about saying the right things or being overly spiritual, it’s about learning to see average moments as miracles waiting to happen. I open the corridors of my heart in this book and unfortunately it’s not all pretty. I needed this middle seat moment to change my perspective on God and people. What if life was more than building your brand? What if your platform doesn’t need to be reached but needs to be realized? What if we stopped craving platforms and started loving people?</p>
             <br/>
             Purchase The Middle Seat below!
+            <br/>
             <a href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986/ref=sr_1_2?ie=UTF8&qid=1468983289&sr=8-2&keywords=pedro+latorre">Amazon</a>
             <br/>
             <a href="https://www.barnesandnoble.com/w/the-middle-seat-pedro-latorre/1124125010?ean=9781483572987">Barnes and Noble</a>
