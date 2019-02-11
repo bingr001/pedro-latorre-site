@@ -36,7 +36,7 @@ const Header = props => (
               window.location = "/charity-water";
             }}
           >
-            Brave Work
+            Charity Water
           </a>
         </li>
         <li>
