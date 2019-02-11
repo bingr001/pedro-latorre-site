@@ -6,12 +6,12 @@ import Layout from '../components/layout'
 
 
 const BraveWork = () => (
-<layout>
+<Layout>
       <h1>Brave Work</h1>
       <p>Brave Work information</p>
   <Subscription/>
   <Footer/>
-</layout>
+</Layout>
 )
 
 export default BraveWork
