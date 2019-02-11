@@ -12,33 +12,27 @@ const BraveWork = () => (
   <Layout>
     <h1>Brave Work</h1>
     <p>Brave Work information</p>
-    <Link to="/">Go back to the homepage</Link>
-    <Footer/>
-    <form name="contact 5" method="POST" data-netlify="true">
-    <input type="hidden" name="contactsample" value="contact" />
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>   
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <div class="field">
-				    <div 
-					  data-netlify-recaptcha="true"></div>
-				</div>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-    </form>
+    <form name="contactsample" method="POST" data-netlify="true">
+            <input type="hidden" name="contactsample" value="contact" />
+          <div class="fields">
+            <div class="field half">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="field half">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="field">
+              <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+            </div>
+            <div class="field">
+              <div 
+              data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="Send Message" class="button primary" /></li>
+          </ul>
+			</form>
   </Layout>
 )
 
