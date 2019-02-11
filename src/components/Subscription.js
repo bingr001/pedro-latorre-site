@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Subscription = (props) => (
-  <form name="contact2" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
-    <input type="hidden" name="contact2" value="contact2" />
+  <form name="charity water contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+    <input type="hidden" name="charity water contact" value="charity water contact" />
     <h2>Request More Info</h2>
     <p>
       <label>Your Name: <input type="text" name="name" /></label>   
