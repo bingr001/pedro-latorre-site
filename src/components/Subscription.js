@@ -12,12 +12,7 @@ const Subscription = (props) => (
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
-  <p>
-      <label>Your Phone Number: <input type="text" name="phone"/> </label>
-  </p>
-  <p>
-      <label>Church Website: <input type="text" name="website"/> </label>
-  </p>
+
   <p>
     <label>Message: <textarea name="message"></textarea></label>
 
