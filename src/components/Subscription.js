@@ -18,9 +18,9 @@ const Subscription = (props) => (
     </p>
     <p>
       <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <div data-netlify-recaptcha="true"></div>
-    <p>
+      <div className="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
       <button type="submit">Send</button>
     </p>
   </form>
