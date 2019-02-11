@@ -24,8 +24,9 @@ const BraveWork = () => (
     <Subscription/>
     <Footer/>
   </Layout>
-
+  <div id="bg"></div>
 </div>
+
 )
 
 export default BraveWork
