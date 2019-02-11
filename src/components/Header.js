@@ -33,7 +33,7 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              window.location = "/brave-work";
+              window.location = "/charity-water";
             }}
           >
             Brave Work

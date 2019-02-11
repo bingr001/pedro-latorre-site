@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Pedro LaTorre",
-    author: "Hunter Chang",
+    author: "Brent",
     description: "You Are Not Alone"
   },
   plugins: [
