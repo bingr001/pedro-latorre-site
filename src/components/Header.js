@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import pedro from '../images/pedro.jpg'
+import pedroLogo from '../images/PL-LOGO-min.png'
 
 console.log(pedro)
 
@@ -12,8 +13,7 @@ const Header = props => (
 
     <div className="content">
       <div className="inner">
-        <h1>Pedro LaTorre</h1>
-        <span className="image main"> <img src={pedro} alt="" /></span>
+        <span className="image main"> <img src={pedroLogo} alt="" /></span>
 
       </div>
     </div>
