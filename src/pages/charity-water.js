@@ -7,8 +7,9 @@ import Testimonial from '../components/Testimonial'
 
 //      <div id="bg"></div>
 const BraveWork = () => (
-  <div>
+  <div id="backg">
     <Layout>
+      
       <div>
         <h1><a href="/"> charity: water</a></h1>
       </div>
@@ -18,6 +19,7 @@ const BraveWork = () => (
       <Testimonial/>
 
     </Layout>
+   
     <Subscription/>
     <Footer/>
   </div>
