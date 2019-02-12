@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
+import Footer from '../components/Footer'
 
 import pic11 from '../assets/images/pic11.jpg'
 
 const Success = (props) => (
+    <div id="backg">
     <Layout>
 
         <div >
@@ -19,7 +21,10 @@ const Success = (props) => (
                 <Link to="/">Go back to the homepage</Link>
             </div>
         </div>
+        <Footer/>
     </Layout>
+    </div>
+    
 )
 
 export default Success
