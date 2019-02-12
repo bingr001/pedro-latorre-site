@@ -15,14 +15,16 @@ const Testimonial = (props) => (
       accomplishments. He's humble and teachable, engaging and
       captivating, and his stories and message will compel you.
       <br/>
-      <br/>
+      
       He knows how to present the gospel in a unique way without
       distorting the very foundation of our faith. The Church is stronger
       with people like Pedro.”
       <br/>
       <br/>
-      - James Lee
-      Pastor at Gateway Church
+      <h3>
+      - James Lee, Pastor at Gateway Church
+      </h3>
+      
       </blockquote>
       </div>
     </Layout>
