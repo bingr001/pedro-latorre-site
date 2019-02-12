@@ -50,8 +50,10 @@
 
 	.iframe-container {
 		overflow: hidden;
-		padding-top: 56.25%;
+		padding-top: 40.25%;
 		position: relative;
+		max-width:1200px;
+		margin: 0 auto;
 	  }
 	  
 	  .iframe-container iframe {
@@ -61,6 +63,7 @@
 		 position: absolute;
 		 top: 0;
 		 width: 100%;
+
 	  }
 	  
 	  /* 4x3 Aspect Ratio */
