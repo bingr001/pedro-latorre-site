@@ -5,7 +5,7 @@ const Testimonial = (props) => (
   
     <Layout>
       <div>
-      <p>
+      <blockquote>
       "There are some who spend their whole lives devoted to perfecting
       the gifts and talents that God has given them for one purpose and
       one purpose only — for their own benefit and success. There are
@@ -21,9 +21,9 @@ const Testimonial = (props) => (
       with people like Pedro.”
       <br/>
       <br/>
-      James Lee
+      - James Lee
       Pastor at Gateway Church
-      </p>
+      </blockquote>
       </div>
     </Layout>
 )
