@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            About
+            ABOUT
           </a>
         </li>
         <li>
@@ -36,7 +36,7 @@ const Header = props => (
               window.location = "/charity-water";
             }}
           >
-            Charity Water
+            charity: water
           </a>
         </li>
         <li>
@@ -46,7 +46,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Book
+            THE MIDDLE SEAT
           </a>
         </li>
         <li>
@@ -56,7 +56,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            CONTACT
           </a>
         </li>
       </ul>

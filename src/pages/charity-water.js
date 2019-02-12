@@ -10,7 +10,7 @@ const BraveWork = () => (
   <div>
     <Layout>
       <div>
-        <h1><a href="/">Pedro LaTorre + Charity: Water</a></h1>
+        <h1><a href="/"> charity: water</a></h1>
       </div>
       <div class="iframe-container">
        <iframe src="https://player.vimeo.com/video/316497942"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
