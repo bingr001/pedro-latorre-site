@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import pedro from '../images/pedro.jpg'
-import pedroLogo from '../images/PL-LOGO.png'
+import pedroLogo from '../images/PL-LOGO-WHITE.png'
 
 console.log(pedro)
 
