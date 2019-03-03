@@ -46,7 +46,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            THE MIDDLE SEAT
+            EVENTS
           </a>
         </li>
         <li>
