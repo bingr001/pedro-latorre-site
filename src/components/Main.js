@@ -46,7 +46,9 @@ class Main extends React.Component {
           <h2 className="major">EVENTS</h2>
           <span className="image main"><img src={events} alt="" /></span>
           <p>
-            EVENTS TBA
+          March 17, 2019 - <a href="https://www.rebel.church/">Rebel Church </a> - San Antonio, TX
+          <br/>
+          March 24, 2019 - <a href="https://www.renewlifechurch.com/">Renew Life Church </a> - Midland, TX
           </p>
           {close}
         </article>
