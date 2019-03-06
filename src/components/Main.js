@@ -44,7 +44,6 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">EVENTS</h2>
-          <span className="image main"><img src={events} alt="" /></span>
           <p>
           March 17, 2019 - <a href="https://www.rebel.church/">Rebel Church </a> - San Antonio, TX
           <br/>
