@@ -75,13 +75,17 @@
 
 		}
 
-		&.main2 {
-			display: block;
-			margin: (_size(element-margin) * 1.25) 0;
+		&.result {
+			//display: block;
+			//margin: (_size(element-margin) * 1.25) 0;
 			width: 100%;
+			background-color: black;
 
 			img {
-				width: 60%;
+				width: 33%;
+				float: left;
+				display: inline-block;
+
 			}
 
 			

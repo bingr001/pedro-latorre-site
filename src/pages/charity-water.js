@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Footer from '../components/Footer'
 import Subscription from '../components/Subscription'
 import Testimonial from '../components/Testimonial'
+import Results from '../components/Results'
 
 //      <div id="bg"></div>
 const BraveWork = () => (
@@ -18,6 +19,11 @@ const BraveWork = () => (
       <div class="iframe-container">
        <iframe src="https://player.vimeo.com/video/316497942"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
+      <br/>
+      <div>
+      </div>
+      <Results/>
+
       <Testimonial/>
 
     </Layout>
