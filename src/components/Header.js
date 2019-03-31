@@ -13,7 +13,7 @@ const Header = props => (
 
     <div className="content">
       <div className="inner">
-        <span className="image main"> <img src={pedroLogo} alt="" /></span>
+        <span className="image main2"> <img src={pedroLogo} alt="" /></span>
         
       </div>
     </div>
