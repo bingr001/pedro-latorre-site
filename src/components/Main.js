@@ -44,16 +44,15 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">EVENTS</h2>
-          <p>
-            TBA, Check Back Soon
-          </p>
-          {/*
+          {
           <p>
           March 17, 2019 - <a href="https://www.rebel.church/">Rebel Church </a> - San Antonio, TX
           <br/>
           March 24, 2019 - <a href="https://www.renewlifechurch.com/">Renew Life Church </a> - Midland, TX
+          <br/>
+          March 26, 2019 - <a href="https://open.spotify.com/episode/4oNAozSE47iAVslRVH0qgC?si=d8i-GQqhS9yZgrzH5hxRPw"> Luke Lezon Podcast</a>
           </p>
-          */}
+          }
           {close}
         </article>
 
