@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Pedro LaTorre is a dynamic speaker who ignites action within the church. His current passion? Partnering with charity: water to end the water crisis. ' },
+              { name: 'keywords', content: 'pedr latorre, charity: water' },
             ]}
           >
             <html lang="en" />
