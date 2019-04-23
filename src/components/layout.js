@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
@@ -38,15 +37,7 @@ const Layout = ({ children, location }) => {
       `}
       render={data => (
         <>
-          <Helmet
-            title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Pedro LaTorre is a dynamic speaker who ignites action within the church. His current passion? Partnering with charity: water to end the water crisis. ' },
-              { name: 'keywords', content: 'pedr latorre, charity: water' },
-            ]}
-          >
-            <html lang="en" />
-          </Helmet>
+
           {content}
         </>
       )}

@@ -1,5 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Helmet from 'react-helmet'
+
 
 import Header from '../components/Header'
 import Main from '../components/Main'
@@ -94,6 +96,10 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
+            <Helmet>
+              <title>Pedro LaTorre | charity: water speaker</title>
+              <meta name="description" content="Pedro LaTorre is a dynamic speaker who ignites action within the church. His current passion? Partnering with charity: water to end the water crisis. "></meta>
+            </Helmet>
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
               isArticleVisible={this.state.isArticleVisible}
