@@ -54,7 +54,7 @@ class Main extends React.Component {
           <br/>
           June 11, 2019 - <a href="https://thehangnyc.com">The Hang Manhattan</a> - New York City, New York
           <br/>
-          July 28, 2019- <a href="https://www.raincitychurch.com"> Rain City Church </a> - Bellevue, WA
+          July 28, 2019 - <a href="https://www.raincitychurch.com"> Rain City Church </a> - Bellevue, WA
 
 
           </p>
