@@ -50,7 +50,13 @@ class Main extends React.Component {
           <br/>
           March 24, 2019 - <a href="https://www.renewlifechurch.com/">Renew Life Church </a> - Midland, TX
           <br/>
-          March 26, 2019 - <a href="https://open.spotify.com/episode/4oNAozSE47iAVslRVH0qgC?si=d8i-GQqhS9yZgrzH5hxRPw"> Luke Lezon Podcast</a>
+          March 26, 2019 - <a href="https://open.spotify.com/episode/4oNAozSE47iAVslRVH0qgC?si=d8i-GQqhS9yZgrzH5hxRPw"> Luke Lezon Podcast</a> - Spotify
+          <br/>
+          June 11, 2019 - <a href="https://thehangnyc.com">The Hang Manhattan</a> - New York City, New York
+          <br/>
+          July 28, 2019- <a href="https://www.raincitychurch.com"> Rain City Church </a> - Bellevue, WA
+
+
           </p>
           }
           {close}
