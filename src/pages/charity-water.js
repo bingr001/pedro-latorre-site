@@ -6,6 +6,8 @@ import Footer from '../components/Footer'
 import Subscription from '../components/Subscription'
 import Testimonial from '../components/Testimonial'
 import Results from '../components/Results'
+import Results2 from '../components/Results2'
+//       <Results/>
 
 //      <div id="bg"></div>
 const BraveWork = () => (
@@ -27,9 +29,9 @@ const BraveWork = () => (
       <br/>
       <div>
       </div>
-      <Results/>
 
       <Testimonial/>
+      <Results2/>
 
     </Layout>
    
