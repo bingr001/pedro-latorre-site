@@ -54,8 +54,12 @@ class Main extends React.Component {
           <br/>
           June 11, 2019 - <a href="https://thehangnyc.com">The Hang Manhattan</a> - New York City, New York
           <br/>
+          July 21, 2019 - <a href="https://www.alive.org"> Alive Festival </a> - Mineral City, OH
+          <br/>
           July 28, 2019 - <a href="https://www.raincitychurch.com"> Rain City Church </a> - Bellevue, WA
-
+          <br/>
+          August 30 - 31st, 2019 - <a href="https://www.thecanvasconference.com"> Canvas Conference </a> - Santa Ana, CA 
+          
 
           </p>
           }
