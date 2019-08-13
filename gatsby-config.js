@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Pedro LaTorre | charity: water speaker",
-    description: "Pedro LaTorre is a dynamic speaker who ignites action within the church. His current passion? Partnering with charity: water to end the water crisis."
+    title: "Pedro LaTorre",
+    description: "Pedro LaTorre is a dynamic speaker who ignites action within the church."
   },
   plugins: [
     'gatsby-plugin-react-helmet',

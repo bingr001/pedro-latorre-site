@@ -97,8 +97,8 @@ class IndexPage extends React.Component {
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <Helmet>
-              <title>Pedro LaTorre | charity: water speaker</title>
-              <meta name="description" content="Pedro LaTorre is a dynamic speaker who ignites action within the church. His current passion? Partnering with charity: water to end the water crisis. "></meta>
+              <title>Pedro LaTorre </title>
+              <meta name="description" content="Pedro LaTorre is a dynamic speaker who ignites action within the church."></meta>
             </Helmet>
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
