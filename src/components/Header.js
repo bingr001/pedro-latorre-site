@@ -33,10 +33,10 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              window.location = "/charity-water";
+              window.location = "/brave-work";
             }}
           >
-            charity: water
+            Brave Work
           </a>
         </li>
         <li>

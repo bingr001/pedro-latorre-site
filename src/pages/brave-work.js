@@ -14,24 +14,19 @@ const BraveWork = () => (
   <div id="backg">
     <Layout>
       <Helmet>
-        <title>Book Pedro | charity: water speaker</title>
-        <meta name="description" content="Empower your church to help end the water crisis with charity: water. Pedro is a dynamic speaker who will inspire, equip, and activate your community."></meta>
+        <title>Book Pedro | Brave Work</title>
+        <meta name="description" content="Pedro is a dynamic speaker who will inspire, equip, and activate your community."></meta>
       </Helmet>
       
       <div>
-        <h1><a href="/"> charity: water</a></h1>
+        <h1><a href="/"> Brave Work</a></h1>
       </div>
       
-      <br/>
-      <div class="iframe-container">
-       <iframe src="https://player.vimeo.com/video/316497942"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-      <br/>
+
       <div>
       </div>
 
       <Testimonial/>
-      <Results2/>
 
     </Layout>
    
