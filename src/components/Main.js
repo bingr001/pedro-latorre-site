@@ -17,20 +17,11 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pedrofam} alt="" /></span>
-          <p>By the time he entered high school, Pedro had seen two failed marriages, gone to 13 different schools, and faced his share of challenges. 
-            However, instead of being defined by those circumstances, he saw them as opportunities for growth. Baseball became more than a game, it was his sole passion. 
-            By his senior year, Pedro had caught the attention of several professional baseball scouts. 
-            During the first game of his senior season, everything changed. With one swing of the bat, he hit a home run and tore his rotator in the same moment. His faith was shaken and his dream to play professionally, felt out of reach. 
-            Through many trying days, he allowed this to both prune and propel him into a new season of life.</p>
-          
-          <p>At the age of twenty, Pedro became the drummer for international recording artist KJ-52 and went on to play with several other artists including Tedashii, Anthem Lights, Rhema Soul, and Group 1 Crew. 
-            And at the age of twenty-eight, he wrote his first book, <a href="https://www.amazon.com/Middle-Seat-Craving-Platforms-Loving/dp/1483572986/ref=sr_1_2?ie=UTF8&qid=1468983289&sr=8-2&keywords=pedro+latorre">The Middle Seat</a>, about learning to see average moments as the miraculous waiting to happen. 
-            Through out this 8 year span, Pedro was being asked to speak in public schools, churches, and to professional athletes where he was given the opportunity to advocate for the gospel. 
-            The Love he discovered for communicating those truths has now grown into speaking to thousands of students, leaders, and churches over the last 14 years.</p>
           <p>Pedro and his bride, Jessica, have one son, named Justice. 
-            They live together in Los Angeles, California and wholeheartedly believe in the missional purpose and unification of the church — 
-            and with this desire, they’re excited to advance the charity: water mission to see those affected by the water crisis, be given clean water!</p>
-
+            They live together in Los Angeles, California and wholeheartedly believe in the missional purpose and 
+            unification of the church — and with this desire, 
+            they’re excited to continue consulting for various creatives and organizations.</p>
+          
           {close}
         </article>
 
