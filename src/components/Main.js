@@ -36,23 +36,50 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">EVENTS</h2>
           {
-          <p>
-          March 17, 2019 - <a href="https://www.rebel.church/">Rebel Church </a> - San Antonio, TX
-          <br/>
-          March 24, 2019 - <a href="https://www.renewlifechurch.com/">Renew Life Church </a> - Midland, TX
-          <br/>
-          March 26, 2019 - <a href="https://open.spotify.com/episode/4oNAozSE47iAVslRVH0qgC?si=d8i-GQqhS9yZgrzH5hxRPw"> Luke Lezon Podcast</a> - Spotify
-          <br/>
-          June 11, 2019 - <a href="https://thehangnyc.com">The Hang Manhattan</a> - New York City, New York
-          <br/>
-          July 21, 2019 - <a href="https://www.alive.org"> Alive Festival </a> - Mineral City, OH
-          <br/>
-          July 28, 2019 - <a href="https://www.raincitychurch.com"> Rain City Church </a> - Bellevue, WA
-          <br/>
-          
-          
+            <div>
+              <del> 
+                March 17, 2019 - <a href="https://www.rebel.church/">Rebel Church </a> - San Antonio, TX
+                <br/>
+                March 24, 2019 - <a href="https://www.renewlifechurch.com/">Renew Life Church </a> - Midland, TX
+                <br/>
+                March 26, 2019 - <a href="https://open.spotify.com/episode/4oNAozSE47iAVslRVH0qgC?si=d8i-GQqhS9yZgrzH5hxRPw"> Luke Lezon Podcast</a> - Spotify
+                <br/>
+                June 11, 2019 - <a href="https://thehangnyc.com">The Hang Manhattan</a> - New York City, New York
+                <br/>
+                July 21, 2019 - <a href="https://www.alive.org"> Alive Festival </a> - Mineral City, OH
+                <br/>
+                July 28, 2019 - <a href="https://www.raincitychurch.com"> Rain City Church </a> - Bellevue, WA
+                <br/>
+              </del>
 
-          </p>
+              <p>
+                Aug 18th – Point Pleasant, WV
+                <br/>
+                Sept. 13-14th - Plant City, FL
+                <br/>
+                Sept 14th - Sandusky, OH
+                <br/>
+                Sept 15th - Amarillo, TX
+                <br/>
+                Sept 21st - Charlotte, NC
+                <br/>
+                Sept 26th - Roswell, NM
+                <br/>
+                Sept 27th - Joseph City, AX
+                <br/>
+                Sept 28th - Grand Junction, CO
+                <br/>
+                Sept 29th - Billings, MT
+                <br/>
+                Nov 1-2nd - Indianapolis, IN
+                <br/>
+                Nov 8-9th - Springfield, MO
+                <br/>
+                Nov 15-16th - West Michigan
+                <br/>
+                Nov 22nd-23rd - Bossier City, LA
+              </p>
+          </div>
           }
           {close}
         </article>
