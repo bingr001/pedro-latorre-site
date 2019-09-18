@@ -1,10 +1,5 @@
-# gatsby-starter-dimension
-
-**This is a starter for Gatsby.js V2.**
-
-
-
-Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+# Pedro LaTorre Website
+Initially forked from gatsby-starter-dimension with a lot of my own custom chagnes
 
 ## Installation
 
