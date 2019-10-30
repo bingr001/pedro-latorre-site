@@ -50,9 +50,6 @@ class Main extends React.Component {
                 <br/>
                 July 28, 2019 - <a href="https://www.raincitychurch.com"> Rain City Church </a> - Bellevue, WA
                 <br/>
-              </del>
-
-              <p>
                 Aug 18th – Point Pleasant, WV
                 <br/>
                 Sept. 13-14th - Plant City, FL
@@ -70,6 +67,10 @@ class Main extends React.Component {
                 Sept 28th - Grand Junction, CO
                 <br/>
                 Sept 29th - Billings, MT
+              </del>
+
+              <p>
+
                 <br/>
                 Nov 1-2nd - Indianapolis, IN
                 <br/>
