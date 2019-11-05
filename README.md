@@ -1,5 +1,5 @@
 # Pedro LaTorre Website
-Initially forked from gatsby-starter-dimension with a lot of my own custom chagnes
+Initially forked from gatsby-starter-dimension with a lot of my own custom changes
 
 ## Installation
 
