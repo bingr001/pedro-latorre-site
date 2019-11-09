@@ -5,8 +5,9 @@ import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 import Subscription from '../components/Subscription'
 import Testimonial from '../components/Testimonial'
-import Results from '../components/Results'
-import Results2 from '../components/Results2'
+import Video from '../components/Video'
+//import Results from '../components/Results'
+//import Results2 from '../components/Results2'
 //       <Results/>
 
 //      <div id="bg"></div>
@@ -21,11 +22,10 @@ const BraveWork = () => (
       <div>
         <h1><a href="/"> Brave Work</a></h1>
       </div>
-      
-
-      <div>
-      </div>
-
+      <Video
+        videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        videoTitle="Official Music Video on YouTube"
+      />
       <Testimonial/>
 
     </Layout>
