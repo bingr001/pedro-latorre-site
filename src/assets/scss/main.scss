@@ -48,23 +48,58 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 
-	.iframe-container {
-		overflow: hidden;
-		padding-top: 40.25%;
-		position: relative;
-		max-width:1200px;
-		margin: 0 auto;
-	  }
+	// .iframe-container {
+	// 	overflow: hidden;
+	// 	padding-top: 40.25%;
+	// 	position: relative;
+	// 	max-width:1200px;
+	// 	margin: 0 auto;
+	//   }
 	  
-	  .iframe-container iframe {
-		 border: 0;
-		 height: 100%;
-		 left: 0;
-		 position: absolute;
-		 top: 0;
-		 width: 100%;
+	//   .iframe-container iframe {
+	// 	 border: 0;
+	// 	 height: 100%;
+	// 	 left: 0;
+	// 	 position: absolute;
+	// 	 top: 0;
+	// 	 width: 100%;
 
-	  }
+	//   }
+
+	.projects-wrapper {
+        max-width: 980px;
+        position: relative;
+        margin: 0 auto;
+        border: 0px solid blue;
+		border: 0px solid black;
+		text-align: center;
+
+		@include breakpoint(medium) {
+			flex-direction: column;
+			width: 100%;
+			margin: 10px;
+	
+		}
+    }
+
+    .proj-box-format {
+		align-items: center;
+        float: left;
+        height: auto;
+        max-width: 100%;
+        border: 2px groove pink;
+		margin: 10px;
+
+        
+    }
+
+    .iframe {
+        height: auto;
+		max-width: 100%;
+		display: block;
+
+    }
+
 	  
 	  /* 4x3 Aspect Ratio */
 	  .iframe-container-4x3 {

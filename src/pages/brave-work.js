@@ -16,7 +16,7 @@ const BraveWork = () => (
     <Layout>
       <Helmet>
         <title>Book Pedro | Brave Work</title>
-        <meta name="description" content="Pedro is a dynamic speaker who will inspire, equip, and activate your community."></meta>
+        <meta name="description"  content="Pedro is a dynamic speaker who will inspire, equip, and activate your community."></meta>
       </Helmet>
       
       <div>
