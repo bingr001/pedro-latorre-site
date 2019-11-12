@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 import pedrofam from '../images/pedrofam.jpg'
 import restla from '../images/restla.jpg'
-import themiddleseat from '../images/themiddleseat.png'
-import events from '../images/events.jpg'
+//import themiddleseat from '../images/themiddleseat.png'
+//import events from '../images/events.jpg'
 
 class Main extends React.Component {
   render() {

@@ -5,8 +5,9 @@ import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 import Subscription from '../components/Subscription'
 import Testimonial from '../components/Testimonial'
-import Results from '../components/Results'
-import Results2 from '../components/Results2'
+//import Video from '../components/Video'
+//import Results from '../components/Results'
+//import Results2 from '../components/Results2'
 //       <Results/>
 
 //      <div id="bg"></div>
@@ -15,7 +16,7 @@ const BraveWork = () => (
     <Layout>
       <Helmet>
         <title>Book Pedro | Brave Work</title>
-        <meta name="description" content="Pedro is a dynamic speaker who will inspire, equip, and activate your community."></meta>
+        <meta name="description"  content="Pedro is a dynamic speaker who will inspire, equip, and activate your community."></meta>
       </Helmet>
       
       <div>
@@ -23,11 +24,26 @@ const BraveWork = () => (
       </div>
       
 
-      <div>
-      </div>
-
       <Testimonial/>
-
+      <div >
+      
+      <div class="projects-wrapper">
+        <h2>Videos By Pedro</h2>
+        <div class="video-container">
+          <div class="proj-box-format">
+            <iframe src="https://www.youtube.com/embed/FV3PW2boNf0" title="pedro" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <div class="proj-box-format">
+            <iframe src="https://www.youtube.com/embed/vJsV7nG7oOk" title="pedro" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          <div class="proj-box-format">
+            <iframe src="https://www.youtube.com/embed/AaRYSvD8EcE" title="pedro" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
     </Layout>
    
     <Subscription/>
