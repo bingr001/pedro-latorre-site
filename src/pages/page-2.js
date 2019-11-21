@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import logo from '../images/events.jpg'
+import trees from '../images/palms.jpg'
 
 import Layout from '../components/layout'
 import Subscription from '../components/Subscription'
@@ -7,33 +9,13 @@ import Testimonial from '../components/Testimonial';
 
 
 const SecondPage = () => (
-  <Layout>
-    <h1>Hi from the second page</h1>
-    <Link to="/">Go back to the homepage</Link>
-    <br></br>
-    <div >
-      
-      <div class="projects-wrapper">
-        <h2>Videos By Pedro</h2>
-        <div class="video-container">
-          <div class="proj-box-format">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="pedro" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-          <div class="proj-box-format">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="pedro" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-          <div class="proj-box-format">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="pedro" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          </div>
-        </div>
-        
-      </div>
-      
-    </div>
-
-    <Testimonial/>
-    <Subscription/>
-  </Layout>
+<div>
+    <img style={{ maxWidth: 200}} src={logo} />
+    <img style={{ maxWidth: 500 }} src={trees} />
+<h1>
+  Hello
+</h1>
+</div>
 )
 
 export default SecondPage
