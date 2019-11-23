@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Link } from 'gatsby'
-import logo from '../images/events.jpg'
+import logo from '../images/logo-example.jpg'
 import trees from '../images/laptop.jpg'
 
 
@@ -16,8 +16,6 @@ const herocontainerstyle = {
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center"
-
-
 };
 
 const introvideostyle = {
@@ -60,7 +58,9 @@ const minicopystyle = {
   // textAlign: "center"
   display: "inline-block",
   position: "absolute",
-  fontSize: "30px"
+  fontSize: "30px",
+  marginLeft: 10,
+  marginRight: 10
   // left: "50%",
   // right: "50%",
   // transform: "translateY(10)"
@@ -75,6 +75,11 @@ const littleButtonstyle = {
   // marginRight: "auto",
  
   // right: "0%"
+  display: "inline-block",
+  position: "absolute",
+  marginBottom: -200
+  
+  
 };
 
 const bravevideostyle = {
@@ -111,7 +116,10 @@ const SecondPage = () => (
     <p class="minicopy" style={minicopystyle}>
     Brave Work is for anyone willing to pause the pace of life and discover a new way to live.
     </p>
-    <button class="littleButton" style={littleButtonstyle}>Sign Up for the event</button>
+    <button class="littleButton" 
+            style={littleButtonstyle}
+            
+      ><a href="https://www.eventbrite.com/e/brave-work-los-angeles-2020-tickets-82099095605">Sign Up for the Workshop</a> </button>
   </div>
   <div class="introVideo" style={introvideostyle}>
     <iframe src="https://www.youtube.com/embed/FV3PW2boNf0" 
@@ -141,7 +149,12 @@ const SecondPage = () => (
       Brave Work is for anyone willing to pause the pace of life and discover a new way to live.
 
     </p>
-    <button class="bigButton" style={bigbuttonstyle}>Start Your Brave Work</button>
+    <button class="bigButton" 
+        style={bigbuttonstyle}>
+        <a href="https://www.eventbrite.com/e/brave-work-los-angeles-2020-tickets-82099095605">
+          Sign Up for the Workshop
+        </a>
+    </button>
 
   </div>
 
