@@ -1,15 +1,23 @@
 import React from 'react'
 // import { Link } from 'gatsby'
 import logo from '../images/events.jpg'
-import trees from '../images/palms.jpg'
-import { isAbsolute, relative } from 'path';
+import trees from '../images/laptop.jpg'
+
 
 // import Layout from '../components/layout'
 // import Subscription from '../components/Subscription'
 // import Testimonial from '../components/Testimonial';
 const herocontainerstyle = {
   // backgroundColor: "blue",
-  position: "relative"
+  // position: "relative"
+
+  // one possible option, all in a row
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center"
+
+
 };
 
 const introvideostyle = {
@@ -37,25 +45,36 @@ const treestyle = {
 };
 const minicopystyle = {
  //paddingTop: 20,
+  // position: "absolute",
+  // width: "100%",
+  // top: "40%",
+  // fontSize: 18,
+  // marginLeft: 10,
+  // marginRight: 10,
+  // left: 0,
+  // maxWidth: 500
+  // transform: "translateY(10%)"
+
+  //possible route
+  // display: "flex",
+  // textAlign: "center"
+  display: "inline-block",
   position: "absolute",
-  width: "100%",
-  top: "40%",
-  fontSize: 18,
-  marginLeft: 10,
-  marginRight: 10,
-  left: 0,
-  maxWidth: 500
+  fontSize: "30px"
+  // left: "50%",
+  // right: "50%",
+  // transform: "translateY(10)"
 };
 const littleButtonstyle = {
   //display: "block",
   // marginLeft: "auto",
   // marginRight: "auto",
-  position: "absolute",
-  top: "60%",
-  marginLeft: "auto",
-  marginRight: "auto",
+  // position: "absolute",
+  // top: "60%",
+  // marginLeft: "auto",
+  // marginRight: "auto",
  
-  right: "0%"
+  // right: "0%"
 };
 
 const bravevideostyle = {
@@ -92,7 +111,7 @@ const SecondPage = () => (
     <p class="minicopy" style={minicopystyle}>
     Brave Work is for anyone willing to pause the pace of life and discover a new way to live.
     </p>
-    <button class="littleButton" style={littleButtonstyle}>Start Your Brave Work</button>
+    <button class="littleButton" style={littleButtonstyle}>Sign Up for the event</button>
   </div>
   <div class="introVideo" style={introvideostyle}>
     <iframe src="https://www.youtube.com/embed/FV3PW2boNf0" 
