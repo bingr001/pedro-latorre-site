@@ -157,6 +157,15 @@ const SecondPage = () => (
     </button>
 
   </div>
+  <div class="testimonialWrapper">
+    <div class="testimonialCard">
+      <img class="testimonyProfile"></img>
+      <p class="testimonyName"></p>
+      <p class="testimony"></p>
+
+
+    </div>
+  </div>
 
 </div>
 )
