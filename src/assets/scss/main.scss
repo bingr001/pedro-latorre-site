@@ -132,3 +132,14 @@
 		justify-content: center;
 		align-items: center;
 	  }
+
+	  .testimonialWrapper {
+		max-Width: 980px;
+		position: relative;
+		margin: 5%;
+		padding-Bottom: 90px;
+		// border: (0 solidBlue);
+		// border: (0 solidBlack);
+		background-Color: rgba(27, 31, 34, 0.85);
+		border-Radius: 10px;
+	  }

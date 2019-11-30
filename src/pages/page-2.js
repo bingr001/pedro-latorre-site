@@ -69,7 +69,7 @@ const SecondPage = () => (
       </button>
 
     </div>
-    <div class="testimonialWrapper" style={testimonialWrapperStyle}>
+    <div class="testimonialWrapper" /*style={testimonialWrapperStyle}*/>
       <div class="testimonialCard" style={testimonialCardStyle}>
           <img src={anjelahProfile} style={testimonyProfileStyle}></img>
           <h2 class="testimonyName">Anjelah Johnson | Celebrity Comedian & Actress</h2>
@@ -103,16 +103,7 @@ const braveWorkPageStyle = {
   backgroundRepeat: "no-repeat"
 }
 
-// const herocontainerstyle = {
-//   // backgroundColor: "blue",
-//   // position: "relative"
 
-//   // one possible option, all in a row
-//   display: "flex",
-//   flexDirection: "column",
-//   justifyContent: "center",
-//   alignItems: "center"
-// };
 
 const introvideostyle = {
   // backgroundColor: "red"
@@ -204,16 +195,16 @@ const bigbuttonstyle = {
   marginBottom: 100
 };
 
-const testimonialWrapperStyle = {
-  maxWidth: 980,
-  position: "relative",
-  margin: "5%",
-  paddingBottom: 90,
-  border: "(0 solidBlue)",
-  border: "(0 solidBlack)",
-  backgroundColor: "rgba(27, 31, 34, 0.85)",
-  borderRadius: 10,
-}
+// const testimonialWrapperStyle = {
+//   maxWidth: 980,
+//   position: "relative",
+//   margin: "5%",
+//   paddingBottom: 90,
+//   border: "(0 solidBlue)",
+//   border: "(0 solidBlack)",
+//   backgroundColor: "rgba(27, 31, 34, 0.85)",
+//   borderRadius: 10,
+// }
 
 const testimonialCardStyle = {
   // float: "left",
