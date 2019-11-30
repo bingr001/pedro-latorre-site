@@ -5,6 +5,7 @@ import logo from '../images/logo-example.jpg'
 import trees from '../images/laptop.jpg'
 import profiletemp from '../images/profiletemp.jpg'
 import anjelahProfile from '../images/anjelah.jpg'
+import cobusProfile from '../images/cobus.jpg'
 
 
 
@@ -73,9 +74,9 @@ const SecondPage = () => (
         </h4>
     </div>
     <div class="testimonialCard" style={testimonialCardStyle}>
-        <img src={profiletemp} style={testimonyProfileStyle}></img>
-        <h2 class="testimonyName">Brent John</h2>
-        <h4 class="testimony">Selfies vice viral, health goth vegan umami meggings austin. Succulents tumeric slow-carb mixtape waistcoat. Squid deep v green juice chia vexillologist meditation. Polaroid iceland lyft kickstarter. Twee chicharrones crucifix, cornhole wolf cred intelligentsia bespoke fashion axe direct trade shaman vinyl helvetica vape. Put a bird on it lomo tbh direct trade yuccie.
+        <img src={cobusProfile} style={testimonyProfileStyle}></img>
+        <h2 class="testimonyName">Cobus Potgieter</h2>
+        <h4 class="testimony">"My name is Cobus Potgieter, I'm a drummer, content creator, entrepreneur, and online personality with more than 12 years of experience in online content creation, communication, and marketing. I worked with Pedro a few months ago to refine my vision statement and get some more focus as I move into a new phase of my career. Pedro did an absolutely incredible job extracting the essence of my brand, refining it, and focusing it into a practical mission statement. Pedro is so gifted at communication and strategy because he truly, sincerely loves people and wants to see them thrive in God's plan for their lives. I felt supported, heard, and encouraged through the entire strategy session. His input has been incredibly effective as I've implemented it over the past few months. I would gladly recommended Pedro to any friends and/or colleagues looking for help finding direction and clarity in their careers and personal lives."
         </h4>
     </div>
     <div class="testimonialCard" style={testimonialCardStyle}>
