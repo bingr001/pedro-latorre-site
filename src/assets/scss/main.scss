@@ -126,3 +126,9 @@
 		background-repeat:		no-repeat;
 	  }
 
+	  .heroContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	  }
