@@ -70,19 +70,19 @@ const SecondPage = () => (
 
     </div>
     <div class="testimonialWrapper" /*style={testimonialWrapperStyle}*/>
-      <div class="testimonialCard" style={testimonialCardStyle}>
+      <div class="testimonialCard" /*style={testimonialCardStyle}*/>
           <img src={anjelahProfile} style={testimonyProfileStyle}></img>
           <h2 class="testimonyName">Anjelah Johnson | Celebrity Comedian & Actress</h2>
           <h4 class="testimony">“Pedro LaTorre managed my sold out 16 city nationwide tour. Not only did he lead our entire team with excellence, but he effectively coordinated all logistics with each venue representative. I had peace of mind knowing that Pedro was representing my company and speaking on my behalf. No matter what kind of issue arose, Pedro was sure to handle everything with professionalism and grace. I would say that Pedro’s communication and problem-solving skills are invaluable to any company.” 
           </h4>
       </div>
-      <div class="testimonialCard" style={testimonialCardStyle}>
+      <div class="testimonialCard" /*style={testimonialCardStyle}*/>
           <img src={cobusProfile} style={testimonyProfileStyle}></img>
           <h2 class="testimonyName">Cobus Potgieter</h2>
           <h4 class="testimony">"My name is Cobus Potgieter, I'm a drummer, content creator, entrepreneur, and online personality with more than 12 years of experience in online content creation, communication, and marketing. I worked with Pedro a few months ago to refine my vision statement and get some more focus as I move into a new phase of my career. Pedro did an absolutely incredible job extracting the essence of my brand, refining it, and focusing it into a practical mission statement. Pedro is so gifted at communication and strategy because he truly, sincerely loves people and wants to see them thrive in God's plan for their lives. I felt supported, heard, and encouraged through the entire strategy session. His input has been incredibly effective as I've implemented it over the past few months. I would gladly recommended Pedro to any friends and/or colleagues looking for help finding direction and clarity in their careers and personal lives."
           </h4>
       </div>
-      <div class="testimonialCard" style={testimonialCardStyle}>
+      <div class="testimonialCard" /*style={testimonialCardStyle}*/>
           <img src={profiletemp} style={testimonyProfileStyle}></img>
           <h2 class="testimonyName">Brent John</h2>
           <h4 class="testimony">Selfies vice viral, health goth vegan umami meggings austin. Succulents tumeric slow-carb mixtape waistcoat. Squid deep v green juice chia vexillologist meditation. Polaroid iceland lyft kickstarter. Twee chicharrones crucifix, cornhole wolf cred intelligentsia bespoke fashion axe direct trade shaman vinyl helvetica vape. Put a bird on it lomo tbh direct trade yuccie.
@@ -195,32 +195,23 @@ const bigbuttonstyle = {
   marginBottom: 100
 };
 
-// const testimonialWrapperStyle = {
-//   maxWidth: 980,
-//   position: "relative",
-//   margin: "5%",
-//   paddingBottom: 90,
-//   border: "(0 solidBlue)",
-//   border: "(0 solidBlack)",
-//   backgroundColor: "rgba(27, 31, 34, 0.85)",
-//   borderRadius: 10,
-// }
 
-const testimonialCardStyle = {
-  // float: "left",
-  // height: "auto",
-  // maxWidth: "80%",
-  // margin: 10,
-  // marginBottom: 30,
-  // alignItems: "center"
-  display: "grid",
-  gridTemplateColumns: "repeat(1, 3fr)",
-  textAlign: "center",
-  flexDirection: "column",
-  width: "100%",
-  margin: "(0 auto)",
-  padding: 10
-}
+
+// const testimonialCardStyle = {
+//   // float: "left",
+//   // height: "auto",
+//   // maxWidth: "80%",
+//   // margin: 10,
+//   // marginBottom: 30,
+//   // alignItems: "center"
+//   display: "grid",
+//   gridTemplateColumns: "repeat(1, 3fr)",
+//   textAlign: "center",
+//   flexDirection: "column",
+//   width: "100%",
+//   margin: "(0 auto)",
+//   padding: 10
+// }
 
 const testimonyProfileStyle = {
   // paddingTop: 20,

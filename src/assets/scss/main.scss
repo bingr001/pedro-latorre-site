@@ -134,12 +134,43 @@
 	  }
 
 	  .testimonialWrapper {
-		max-Width: 980px;
+		//what it looks like on desktop
+		max-Width: fit-content;
 		position: relative;
 		margin: 5%;
 		padding-Bottom: 90px;
-		// border: (0 solidBlue);
-		// border: (0 solidBlack);
 		background-Color: rgba(27, 31, 34, 0.85);
 		border-Radius: 10px;
+			
+		@include breakpoint(small) {
+			//what it looks like on mobile
+			max-Width: fit-content;
+			position: relative;
+			margin: 5%;
+			padding-Bottom: 90px;
+			border-Radius: 10px;
+			background-Color: blue;
+
+		}
 	  }
+
+		.testimonialCard {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		text-align: center;
+		width: 100%;
+		margin: (0 auto);
+		padding: 10;
+
+		@include breakpoint(small) {
+		display: grid;
+		//grid-Template-Columns: repeat(1, 3fr);
+		text-align: center;
+		width: 100%;
+		margin: (0 auto);
+		padding: 10;
+		background-color: yellow;
+		}
+		
+	   }
+	   
