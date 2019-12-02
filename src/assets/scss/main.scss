@@ -156,21 +156,23 @@
 
 		.testimonialCard {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 40% 60%;
 		text-align: center;
 		width: 100%;
 		margin: (0 auto);
-		padding: 10;
+		padding: 2%;
 
-		@include breakpoint(small) {
-		display: grid;
-		//grid-Template-Columns: repeat(1, 3fr);
-		text-align: center;
-		width: 100%;
-		margin: (0 auto);
-		padding: 10;
-		background-color: yellow;
-		}
+			@include breakpoint(small) {
+			display: grid;
+			grid-template-columns: repeat(1, 3fr);
+			justify-content: center;
+			//grid-Template-Columns: repeat(1, 3fr);
+			text-align: center;
+			width: 100%;
+			// margin: (0 auto);
+			padding: 10%;
+			// background-color: yellow;
+			}
 		
 	   }
 	   
