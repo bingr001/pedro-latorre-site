@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet'
-// import { Link } from 'gatsby'
+// import { Link } from 'gatsby' 
 import background from '../images/BG_woPedro.png'
 import logo from '../images/logo-example.jpg'
 import trees from '../images/laptop.jpg'
