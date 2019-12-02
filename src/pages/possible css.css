@@ -1,0 +1,39 @@
+	.projects-wrapper {
+        max-width: 980px;
+		position: relative;
+		margin: 0 auto;
+		padding-bottom: 90;
+        border: 0px solid blue;
+		border: 0px solid black;
+		background-color: rgba(27, 31, 34, 0.85);
+		border-radius: 10px;
+		
+
+
+    }
+
+    .proj-box-format {
+		float: left;
+        height: auto;
+        max-width: 100%;
+		margin: 10px;
+		margin-bottom: 30px;
+	@include breakpoint(medium) {
+		align-items: center;
+
+	}
+        
+    }
+	.video-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		@include breakpoint(medium) {
+			grid-template-columns: repeat(1, 3fr);
+			text-align: center;
+			flex-direction: column;
+			width: 100%;
+			margin: 0 auto;
+			padding: 10px;
+		}
+
+	}

@@ -75,9 +75,6 @@
 		border: 0px solid black;
 		background-color: rgba(27, 31, 34, 0.85);
 		border-radius: 10px;
-		
-
-
     }
 
     .proj-box-format {
@@ -125,3 +122,72 @@
 		width:                  100%;
 		background-repeat:		no-repeat;
 	  }
+
+	  .heroContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	  }
+
+	  .testimonialWrapper {
+		//what it looks like on desktop
+		max-Width: fit-content;
+		position: relative;
+		margin: 5%;
+		padding-Bottom: 90px;
+		background-Color: rgba(27, 31, 34, 0.85);
+		border-Radius: 10px;
+			
+		@include breakpoint(small) {
+			//what it looks like on mobile
+			max-Width: fit-content;
+			position: relative;
+			margin: 5%;
+			padding-Bottom: 90px;
+			border-Radius: 10px;
+			// background-Color: blue;
+
+		}
+	  }
+
+		.testimonialCard {
+		display: grid;
+		grid-template-columns: 40% 60%;
+		text-align: center;
+		width: 100%;
+		margin: (0 auto);
+		padding: 2%;
+
+			@include breakpoint(small) {
+			display: grid;
+			grid-template-columns: repeat(1, 3fr);
+			justify-content: center;
+			//grid-Template-Columns: repeat(1, 3fr);
+			text-align: center;
+			width: 100%;
+			// margin: (0 auto);
+			padding: 10%;
+			// background-color: yellow;
+			}
+	   }
+	   
+	    .littleButton {
+
+		display: inline-block;
+		position: absolute;
+		margin-top: 150px;
+			@include breakpoint(small) {
+			margin-top: 210px;	
+				
+				}
+		}
+
+		.bigCopy{
+		padding-top: 20px;
+		display: block;
+		margin: 5%;
+		padding: auto;
+		font-size: 1.2rem;
+		color: black;
+		}
