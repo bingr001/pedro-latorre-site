@@ -46,7 +46,7 @@ const SecondPage = () => (
     </div>
 
     <div class="cta" style={ctastyle}>
-      <p class="bigCopy" style={bigcopystyle}>
+      <p class="bigCopy" /*style={bigcopystyle}*/>
         Brave Work began with a problem that absolutely needed to be solved. 
         I was traveling the world doing music, speaking, and inspiring thousands of people every year. 
         Yep, you read that right. The problem was movement without a focused mission. I had defined my passions, but not my purpose. 
@@ -54,7 +54,7 @@ const SecondPage = () => (
         I didn’t have a personal definition for success and let’s face it, if you and I do not take the time to define success for ourselves, 
         we will spend our entire lives living out someone else’s definition of it. 
       </p>
-      <p class="bigCopy" style={bigcopystyle}>
+      <p class="bigCopy" /*style={bigcopystyle}*/>
         The ethos of Brave Work is to create a space for creative storytellers and pioneers to grow together. 
         I am bringing in specific friends who are changing the world on their own terms and giving them the space to share what they are learning. 
         We gather because we know that when passion, honesty, and humility collide anything is possible. 
@@ -146,12 +146,6 @@ const minicopystyle = {
   marginRight: 10
 
 };
-// const littleButtonstyle = {
-
-//   display: "inline-block",
-//   position: "absolute",
-//   marginTop: 150
-// };
 
 const bravevideostyle = {
   paddingTop: 20,
@@ -161,15 +155,15 @@ const bravevideostyle = {
   marginLeft: "auto",
   marginRight: "auto"
 };
-const bigcopystyle = {
-  paddingTop: 20,
-  display: "block",
-  marginLeft: "auto",
-  marginRight: "auto",
-  maxWidth: 300,
-  fontSize: 16,
-  color: "black"
-};
+// const bigcopystyle = {
+//   paddingTop: 20,
+//   display: "block",
+//   marginLeft: "auto",
+//   marginRight: "auto",
+//   maxWidth: 300,
+//   fontSize: 16,
+//   color: "black"
+// };
 const bigbuttonstyle = {
   // paddingTop: 20,
   display: "block",
