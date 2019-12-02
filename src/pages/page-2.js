@@ -29,7 +29,7 @@ const SecondPage = () => (
       Brave Work is for anyone willing to pause the pace of life and discover a new way to live.
       </h1>
       <button class="littleButton" 
-              style={littleButtonstyle}
+              // style={littleButtonstyle}
               
         ><a href="https://www.eventbrite.com/e/brave-work-los-angeles-2020-tickets-82099095605">Sign Up for the Workshop</a> </button>
     </div>
@@ -137,46 +137,21 @@ const treestyle = {
   // marginRight: "auto"
 };
 const minicopystyle = {
-  //paddingTop: 20,
-  // position: "absolute",
-  // width: "100%",
-  // top: "40%",
-  // fontSize: 18,
-  // marginLeft: 10,
-  // marginRight: 10,
-  // left: 0,
-  // maxWidth: 500
-  // transform: "translateY(10%)"
 
-  //possible route
-  // display: "flex",
-  // textAlign: "center"
   display: "inline-block",
   position: "absolute",
   textAlign: "center",
   fontSize: 25,
   marginLeft: 10,
   marginRight: 10
-  // left: "50%",
-  // right: "50%",
-  // transform: "translateY(10)"
-};
-const littleButtonstyle = {
-  //display: "block",
-  // marginLeft: "auto",
-  // marginRight: "auto",
-  // position: "absolute",
-  // top: "60%",
-  // marginLeft: "auto",
-  // marginRight: "auto",
-
-  // right: "0%"
-  display: "inline-block",
-  position: "absolute",
-  marginTop: 100
-
 
 };
+// const littleButtonstyle = {
+
+//   display: "inline-block",
+//   position: "absolute",
+//   marginTop: 150
+// };
 
 const bravevideostyle = {
   paddingTop: 20,
