@@ -10,8 +10,6 @@ import anjelahProfile from '../images/anjelah.jpg'
 import cobusProfile from '../images/cobus.jpg'
 
 
-
-
 // import Layout from '../components/layout'
 // import Subscription from '../components/Subscription'
 // import Testimonial from '../components/Testimonial';
