@@ -105,7 +105,7 @@ const braveWorkPageStyle = {
   backgroundImage: `url(${background})`,
   backgroundPostion: "center",
   backgroundSize: "cover",
-  width: "100%",
+  width: "100vw",
   backgroundRepeat: "no-repeat"
 }
 
