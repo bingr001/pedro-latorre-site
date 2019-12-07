@@ -52,6 +52,8 @@ class Main extends React.Component {
                 <br/>
                 Aug 18th – Point Pleasant, WV
                 <br/>
+                September 12-14 Orlando, FL
+                <br/>
                 Sept. 13-14th - Plant City, FL
                 <br/>
                 Sept 14th - Sandusky, OH
@@ -67,18 +69,21 @@ class Main extends React.Component {
                 Sept 28th - Grand Junction, CO
                 <br/>
                 Sept 29th - Billings, MT
+                 <br />
+                Nov 1-2nd - Indianapolis, IN
+                <br />
+                Nov 8-9th - Springfield, MO
+                <br />
+                Nov 15-16th - West Michigan
+                <br />
+                Nov 22nd-23rd - Bossier City, LA
               </del>
 
               <p>
+              December 28-29 Pigeon Forge, Tn
+                
+              <br/>
 
-                <br/>
-                Nov 1-2nd - Indianapolis, IN
-                <br/>
-                Nov 8-9th - Springfield, MO
-                <br/>
-                Nov 15-16th - West Michigan
-                <br/>
-                Nov 22nd-23rd - Bossier City, LA
               </p>
           </div>
           }
