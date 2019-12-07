@@ -6,7 +6,7 @@ import background from '../images/BG_woPedro.png'
 import logo from '../images/bwlogo.png'
 import trees from '../images/laptop.jpg'
 import profiletemp from '../images/profiletemp.jpg'
-import anjelahprofile from '../images/anjelah.jpg'
+import anjelahprofile from '../images/anjelah.png'
 //import cobusprofile from '../images/cobus.jpg'
 
 
