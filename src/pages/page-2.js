@@ -7,7 +7,7 @@ import logo from '../images/bwlogo.png'
 import trees from '../images/laptop.jpg'
 import profiletemp from '../images/profiletemp.jpg'
 import anjelahprofile from '../images/anjelah.png'
-//import cobusprofile from '../images/cobus.jpg'
+import cobusprofile from '../images/cobus.png'
 
 
 // import Layout from '../components/layout'
@@ -78,7 +78,7 @@ const SecondPage = () => (
           
       </div>
       <div class="testimonialCard" /*style={testimonialCardStyle}*/>
-          <img src={profiletemp} style={testimonyProfileStyle}></img>
+          <img src={cobusprofile} style={testimonyProfileStyle}></img>
           <div>
             <h2 class="testimonyName">Cobus Potgieter</h2>
             <h4 class="testimony">"My name is Cobus Potgieter, I'm a drummer, content creator, entrepreneur, and online personality with more than 12 years of experience in online content creation, communication, and marketing. I worked with Pedro a few months ago to refine my vision statement and get some more focus as I move into a new phase of my career. Pedro did an absolutely incredible job extracting the essence of my brand, refining it, and focusing it into a practical mission statement. Pedro is so gifted at communication and strategy because he truly, sincerely loves people and wants to see them thrive in God's plan for their lives. I felt supported, heard, and encouraged through the entire strategy session. His input has been incredibly effective as I've implemented it over the past few months. I would gladly recommended Pedro to any friends and/or colleagues looking for help finding direction and clarity in their careers and personal lives."
