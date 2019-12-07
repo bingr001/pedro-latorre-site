@@ -32,7 +32,7 @@ const SecondPage = () => (
         ><a href="https://www.eventbrite.com/e/brave-work-los-angeles-2020-tickets-82099095605">Sign Up for the Workshop</a> </button>
     </div>
     <div class="introVideo" style={introvideostyle}>
-      <iframe src="https://www.youtube.com/embed/FV3PW2boNf0" 
+      <iframe src="https://player.vimeo.com/video/377561319?title=0&byline=0&portrait=0" 
               title="pedro" 
               frameborder="0" 
               webkitallowfullscreen 
@@ -112,7 +112,8 @@ const braveWorkPageStyle = {
 
 
 const introvideostyle = {
-  // backgroundColor: "red"
+ padding: "56.25% 0 0 0",
+ position: "relative"
 };
 
 const ctastyle = {
@@ -151,17 +152,18 @@ const bravevideostyle = {
   maxWidth: 1000,
   display: "block",
   marginLeft: "auto",
-  marginRight: "auto"
+  marginRight: "auto",
+  position:"absolute",
+  top:0,
+  left:0,
+  right: 0,
+  width:"100%",
+  height:"100%",
+  // frameborder = "0",
+  //  allow="autoplay, 
+  //  fullscreen allowfullscreen
 };
-// const bigcopystyle = {
-//   paddingTop: 20,
-//   display: "block",
-//   marginLeft: "auto",
-//   marginRight: "auto",
-//   maxWidth: 300,
-//   fontSize: 16,
-//   color: "black"
-// };
+
 const bigbuttonstyle = {
   // paddingTop: 20,
   display: "block",
