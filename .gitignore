@@ -8,3 +8,7 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
+
+#pages
+brave-work-copy.js
+oldpage2copy.js
