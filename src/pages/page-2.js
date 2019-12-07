@@ -86,7 +86,9 @@ const SecondPage = () => (
           <img src={cobusprofile} style={testimonyProfileStyle}></img>
           <div>
             <h2 class="testimonyName">Cobus Potgieter | Drummer</h2>
-            <p class="testimony">"My name is Cobus Potgieter, I'm a drummer, content creator, entrepreneur, and online personality with more than 12 years of experience in online content creation, communication, and marketing. I worked with Pedro a few months ago to refine my vision statement and get some more focus as I move into a new phase of my career. Pedro did an absolutely incredible job extracting the essence of my brand, refining it, and focusing it into a practical mission statement. Pedro is so gifted at communication and strategy because he truly, sincerely loves people and wants to see them thrive in God's plan for their lives. I felt supported, heard, and encouraged through the entire strategy session. His input has been incredibly effective as I've implemented it over the past few months. I would gladly recommended Pedro to any friends and/or colleagues looking for help finding direction and clarity in their careers and personal lives."
+            <p class="testimony">"My name is Cobus Potgieter, I'm a drummer, content creator, entrepreneur, and online personality with more than 12 years of experience in online content creation, communication, and marketing. I worked with Pedro a few months ago to refine my vision statement and get some more focus as I move into a new phase of my career. Pedro did an absolutely incredible job extracting the essence of my brand, refining it, and focusing it into a practical mission statement.</p> 
+            
+            <p class="testimony">Pedro is so gifted at communication and strategy because he truly, sincerely loves people and wants to see them thrive in God's plan for their lives. I felt supported, heard, and encouraged through the entire strategy session. His input has been incredibly effective as I've implemented it over the past few months. I would gladly recommended Pedro to any friends and/or colleagues looking for help finding direction and clarity in their careers and personal lives."
             </p>
           </div>
           
@@ -95,7 +97,8 @@ const SecondPage = () => (
           <img src={markusprofile} style={testimonyProfileStyle}></img>
           <div>
             <h2 class="testimonyName">Markus McFolling | CEO of REACH 1</h2>
-            <p class="testimony">I’m very thankful for the guidance of Pedro within my organization. His leadership and voice has helped me develop a fundamental strategy on how to go about operating in an ethical yet practical and effective manner. It has been transformative with my staff and helped give them clear directives and understanding on how to go to the next level in our given field. Meeting Pedro was pivotal for me and my organization because we were at a make or break point. Meeting him helped propel us and allowed us to gain massive momentum. He has given me peace of mind and clear vision for the future. I’m a much more confident leader since applying the leadership principals for both home life and work.
+            <p class="testimony">"I’m very thankful for the guidance of Pedro within my organization. His leadership and voice has helped me develop a fundamental strategy on how to go about operating in an ethical yet practical and effective manner. It has been transformative with my staff and helped give them clear directives and understanding on how to go to the next level in our given field.</p> 
+            <p class="testimony"> Meeting Pedro was pivotal for me and my organization because we were at a make or break point. Meeting him helped propel us and allowed us to gain massive momentum. He has given me peace of mind and clear vision for the future. I’m a much more confident leader since applying the leadership principals for both home life and work."
             </p>
           </div> 
       </div>
