@@ -9,6 +9,7 @@ import profiletemp from '../images/profiletemp.jpg'
 import anjelahprofile from '../images/anjelah.png'
 import cobusprofile from '../images/cobus.png'
 import markusprofile from '../images/markus.png'
+import Footer from '../components/Footer'
 
 
 // import Layout from '../components/layout'
@@ -106,6 +107,7 @@ const BraveWork = () => (
           </div>
         </div>
       </div>
+      <Footer/>
     </Layout>
   </div>
 )
