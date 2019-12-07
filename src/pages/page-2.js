@@ -19,6 +19,10 @@ import markusprofile from '../images/markus.png'
 const SecondPage = () => (
 <div class="braveworkpage" style={braveWorkPageStyle}>
   <Layout>
+    <Helmet>
+      <title>Brave Work</title>
+      <meta name="description" content="      Brave Work is for anyone willing to pause the pace of life and discover a new way to live."></meta>
+    </Helmet>
     <div class="logoHeader" >
       <img style={logoheaderstyle} src={logo} />
     </div>
