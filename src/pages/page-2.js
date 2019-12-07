@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Helmet from 'react-helmet'
 // import { Link } from 'gatsby' 
 import background from '../images/BG_woPedro.png'
-import logo from '../images/logo-example.jpg'
+import logo from '../images/bwlogo.png'
 import trees from '../images/laptop.jpg'
 import profiletemp from '../images/profiletemp.jpg'
 //import anjelahprofile from '../images/anjelah.jpg'
@@ -120,7 +120,7 @@ const ctastyle = {
 };
 
 const logoheaderstyle = {
-  maxWidth: 200,
+  maxWidth: "50vw",
 
   display: "block",
   marginLeft: "auto",
