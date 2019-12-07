@@ -30,7 +30,7 @@ const SecondPage = () => (
       <button class="littleButton" 
               // style={littleButtonstyle}
               
-        ><a href="https://www.eventbrite.com/e/brave-work-los-angeles-2020-tickets-82099095605">Sign Up for the Workshop</a> </button>
+        ><a href="https://www.eventbrite.com/e/brave-work-los-angeles-2020-tickets-82099095605">Get tickets to Brave Work LA</a> </button>
     </div>
     <div class="introVideo" style={introvideostyle}>
       <iframe src="https://player.vimeo.com/video/377561319?title=0&byline=0&portrait=0" 
@@ -63,7 +63,7 @@ const SecondPage = () => (
       <button class="bigButton" 
           style={bigbuttonstyle}>
           <a href="https://www.eventbrite.com/e/brave-work-los-angeles-2020-tickets-82099095605">
-            Sign Up for the Workshop
+            Get tickets to Brave Work LA
           </a>
       </button>
 
