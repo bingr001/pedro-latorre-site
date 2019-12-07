@@ -6,7 +6,7 @@ import background from '../images/BG_woPedro.png'
 import logo from '../images/bwlogo.png'
 import trees from '../images/laptop.jpg'
 import profiletemp from '../images/profiletemp.jpg'
-//import anjelahprofile from '../images/anjelah.jpg'
+import anjelahprofile from '../images/anjelah.jpg'
 //import cobusprofile from '../images/cobus.jpg'
 
 
@@ -69,7 +69,7 @@ const SecondPage = () => (
     </div>
     <div class="testimonialWrapper" /*style={testimonialWrapperStyle}*/>
       <div class="testimonialCard" /*style={testimonialCardStyle}*/>
-          <img src={profiletemp} style={testimonyProfileStyle}></img>
+          <img src={anjelahprofile} style={testimonyProfileStyle}></img>
           <div>
             <h2 class="testimonyName">Anjelah Johnson | Celebrity Comedian & Actress</h2>
             <h4 class="testimony">“Pedro LaTorre managed my sold out 16 city nationwide tour. Not only did he lead our entire team with excellence, but he effectively coordinated all logistics with each venue representative. I had peace of mind knowing that Pedro was representing my company and speaking on my behalf. No matter what kind of issue arose, Pedro was sure to handle everything with professionalism and grace. I would say that Pedro’s communication and problem-solving skills are invaluable to any company.”
