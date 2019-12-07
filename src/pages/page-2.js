@@ -149,7 +149,7 @@ const minicopystyle = {
 const bravevideostyle = {
   paddingTop: 20,
   paddingBottom: 20,
-  maxWidth: 1000,
+  // maxWidth: 1000,
   display: "block",
   marginLeft: "auto",
   marginRight: "auto",
