@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet'
-// import { Link } from 'gatsby' 
+import { Link } from 'gatsby' 
 import background from '../images/BG_woPedro.png'
 import logo from '../images/bwlogo.png'
 import trees from '../images/laptop.jpg'
@@ -24,7 +24,10 @@ const BraveWork = () => (
         <meta name="description" content="      Brave Work is for anyone willing to pause the pace of life and discover a new way to live."></meta>
       </Helmet>
       <div class="logoHeader" >
+        <Link to="/">
         <img style={logoheaderstyle} src={logo} />
+        </Link>
+
       </div>
       <div class="heroContainer" /*style={herocontainerstyle}*/>
         <img style={treestyle} src={trees} />
