@@ -77,13 +77,15 @@ class Main extends React.Component {
                 Nov 15-16th - West Michigan
                 <br />
                 Nov 22nd-23rd - Bossier City, LA
+                <br />
+                December 28-29 Pigeon Forge, TN
+
               </del>
 
               <p>
-              December 28-29 Pigeon Forge, Tn
-                
+               February 28th-29th - Fresh Grounded Faith Womens Conference - Augusta, GA
               <br/>
-
+                July 17th-19th - Alive Festival - Mineral City, OH 
               </p>
           </div>
           }
