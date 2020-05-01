@@ -6,8 +6,6 @@ import pedroLogo from '../images/PL-LOGO-WHITE.png'
 console.log(pedro)
 
 
-
-
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
 
@@ -28,27 +26,7 @@ const Header = props => (
           >
             ABOUT
           </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              window.location = "/brave-work";
-            }}
-          >
-            Brave Work
-          </a>
-        </li>
-        <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            EVENTS
-          </a>
-        </li>
+        </li>     
         <li>
           <a
             href="javascript:;"
